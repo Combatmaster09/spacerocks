@@ -1,0 +1,42 @@
+Creating SpaceRocks in pygame - my arcade game
+Step 1: setting up
+    1. Python 3.12.2 installed
+    2. Pygame installed sucessfully
+    3. Video Studio Code downloaded and used throughout program
+Step 2: Project structure and filing system
+    Creating main directory
+        project named SpaceRocks
+    the setup
+        W game I swear/
+        |
+        ├── assets/
+        |   |
+        │   ├── sounds/
+        │   │   └── laser.wav
+        |   |   └── WRTC.wav
+        |   |
+        │   └── sprites/
+        │       ├── asteroid.png
+        │       ├── bullet.png
+        │       ├── space.png
+        │       └── spaceship.png
+        |
+        ├── space_rocks/
+        │   ├── __main__.py
+        │   ├── game.py
+        │   ├── models.py
+        │   └── utils.py
+        |   └── globals.py
+        |
+        └── doccumentation.txt
+        |
+        |
+        └── README.txt
+Step 3. basic game setup
+    completed 
+Step 4. Core Game Components
+    Classes include bullets, Spaceships, and asteroids
+    spawning, movement, levels, shooting, and music all made functional
+Step 5. Polishing
+    feedback from playtester: "Good remix of a classic game, I like the movemet mechanics"
+    difficulty ramps up at a steady rate, and can be amplified with the "secret button"
